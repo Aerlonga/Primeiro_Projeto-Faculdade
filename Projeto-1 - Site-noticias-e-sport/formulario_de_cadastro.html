@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <link rel="Stylesheet" type="text/css" href="css_formulario_de_cadastro.css" />
+</head>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <br />
+    <form id="ls" action="" method="post">
+        <p>Login: <input id="login" type="text" name="Nome" /></p>
+        <p>Senha: <input id="senha" type="password" name="Senha" /></p>
+    </form>
+    <div align="left">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>Nome: </br><input type="text" name="Nome" size="" placeholder="Fulano" /></p>
+            <p>Sobrenome:</br><input type="text" name="Nome" size="" placeholder="Beltrano do Ciclano" /></p>
+            <p>Data de Nascimento: </br><input type="date" size="" placeholder="dd/mm/aaaa" /></p>
+            <p>
+                Sexo: <input type="radio" name="Sexo" value="1" />Masculino
+                <input type="radio" name="Sexo" value="2" />Feminino
+                <input type="radio" name="Sexo" value="3" />Prefiro não informar
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <p>Telefone residencial: </br> <input type="tel" size="" placeholder="(DDD) 0000-0000" /></p>
+            <p>Celular: </br> <input type="tel" size="" placeholder="(DDD) 00000-0000" /></p>
+            <p>Email:</br> <input type="email" size="" placeholder="email@email.com" /> </p>
+        </fieldset>
+        </br>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>Logradouro: </br> <input type="text" size="" /></p>
+            <p>Cep: </br> <input type="text" size="" /></p>
+            <p>Estado:</br> <input type="text" size="" /> </p>
+            <p>Município:</br> <input type="text" size="" /> </p>
+            <p>Número:</br> <input type="text" size="" /> </p>
+            <p>Complemento:</br> <input type="text" size="" /> </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Médicos</legend>
+            <p>
+                Tipo Sanguineo: <select name="tipo.sanguineo">
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="AB">AB</option>
+                </select>
+            </p>
+            <p>
+                Alergia a algum medicamento? <select name="Alergia.a.algum.medicamento">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </p>
+            <p>Se sim, qual?<input type="text" size="" /> </p>
+            <p>
+                Possui plano de saúde?
+                <input type="checkbox" name="sim" value="sim" />Sim
+                <input type="checkbox" name="nao" value="Nao" />Não
+            </p>
+            <p>Se sim, qual? <input type="text" size="" /></p>
+        </fieldset>
+    </div>
+    <div align="right">
+        <input id="reset" type="reset" value="Limpar" />
+        <input id="submit" type="submit" value="Enviar" />
+    </div>
+    <p align="right"><a href="index.html">Voltar a pagina Inicial</a></p>
+</body>    
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}    
+h1{
+    color: chocolate;
+    text-align: center;
+}
+#ls{
+    font-size: 10px;
+    text-align: right;
+    text-align: right;
+}
+#login{
+    height: 10px;
+    width: 80px;
+}
+#senha{
+    height: 10px;
+    width: 80px;
+}
+legend{
+    color: #685842;
+}
+#reset{
+    color: red;
+}
+#submit{
+    color: green;
+}
+a{
+    color: navy;
+    font-size: large;
+}
